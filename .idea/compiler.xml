@@ -6,14 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tryouts" />
         <module name="coding-challenges" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coding-challenges" target="17" />
       <module name="java-tryouts" target="1.5" />
-      <module name="tryouts" target="17" />
+      <module name="standard-library" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

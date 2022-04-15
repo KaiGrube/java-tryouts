@@ -13,7 +13,7 @@
 
     <modules>
         <module>coding-challenges</module>
-        <module>tryouts</module>
+        <module>standard-library</module>
     </modules>
 
     <build>

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coding-challenges/coding-challenges.iml" filepath="$PROJECT_DIR$/coding-challenges/coding-challenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-tryouts.iml" filepath="$PROJECT_DIR$/java-tryouts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tryouts/tryouts.iml" filepath="$PROJECT_DIR$/tryouts/tryouts.iml" />
     </modules>
   </component>
 </project>
