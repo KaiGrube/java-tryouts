@@ -17,6 +17,7 @@
         <module>aws</module>
         <module>dotenv-example</module>
         <module>OpenCsv</module>
+        <module>gson</module>
     </modules>
 
     <build>
