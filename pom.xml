@@ -14,6 +14,7 @@
     <modules>
         <module>coding-challenges</module>
         <module>standard-library</module>
+        <module>aws</module>
     </modules>
 
     <build>
