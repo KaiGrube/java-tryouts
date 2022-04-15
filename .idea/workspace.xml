@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47331023-6c77-4c46-bae0-aabeb5166ab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jackson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jackson/src/main/java/JacksonSerializers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -36,6 +37,8 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/dci/projects/myProjects/0_java/java-tryouts/gson/src/main/resources",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -43,14 +46,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gson/src/main/resources" />
       <recent name="$PROJECT_DIR$/OpenCsv/src/main/resources" />
       <recent name="$PROJECT_DIR$/OpenCsv/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleGsonExample">
+  <component name="RunManager" selected="Application.JacksonSerializers">
     <configuration name="CsvImport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CsvImport" />
       <module name="OpenCsv" />
@@ -58,15 +65,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleGsonExample" />
-      <module name="gson" />
+    <configuration name="JacksonSerializers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JacksonSerializers" />
+      <module name="jackson" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleGsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleGsonExample" />
+      <module name="gson" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CsvImport" />
+      <item itemvalue="Application.JacksonSerializers" />
+      <item itemvalue="Application.SimpleGsonExample" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JacksonSerializers" />
         <item itemvalue="Application.SimpleGsonExample" />
         <item itemvalue="Application.CsvImport" />
       </list>
@@ -81,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650023029105</updated>
       <workItem from="1650023030590" duration="2857000" />
-      <workItem from="1650032942342" duration="301000" />
+      <workItem from="1650032942342" duration="1597000" />
     </task>
     <servers />
   </component>

@@ -18,6 +18,7 @@
         <module>dotenv-example</module>
         <module>OpenCsv</module>
         <module>gson</module>
+        <module>jackson</module>
     </modules>
 
     <build>
