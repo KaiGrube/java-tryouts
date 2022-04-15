@@ -10,13 +10,15 @@ import software.amazon.awssdk.regions.Region;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class JacksonSerializers {
 
     private static void jacksonStandardSerializerWrite(Account account) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         System.out.println(objectMapper.writeValueAsString(account));
-        objectMapper.writeValue(new File("car.json"), account);    // to file
+        String file = System.getProperty("user.dir") + "/account.json";
+        objectMapper.writeValue(new File(file), account);
     }
 
     private static void jacksonCustomSerializerWrite(Account account) throws JsonProcessingException {
