@@ -19,6 +19,7 @@
         <module>OpenCsv</module>
         <module>gson</module>
         <module>jackson</module>
+        <module>Optional</module>
     </modules>
 
     <build>
