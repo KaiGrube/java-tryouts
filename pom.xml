@@ -16,6 +16,7 @@
         <module>standard-library</module>
         <module>aws</module>
         <module>dotenv-example</module>
+        <module>OpenCsv</module>
     </modules>
 
     <build>
