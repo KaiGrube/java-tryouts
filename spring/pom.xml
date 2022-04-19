@@ -13,7 +13,7 @@
     <artifactId>spring</artifactId>
 
     <modules>
-        <module>simpleHttpTryouts</module>
+        <module>simpleRestControllerTryouts</module>
     </modules>
 
 </project>

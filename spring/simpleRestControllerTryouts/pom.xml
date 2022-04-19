@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.grube</groupId>
-	<artifactId>simpleHttpTryouts</artifactId>
+	<artifactId>simpleRestControllerTryouts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>simpleHttpTryouts</name>
-	<description>simpleHttpTryouts</description>
+	<name>simpleRestControllerTryouts</name>
+	<description>simpleRestControllerTryouts</description>
 
 	<properties>
 		<java.version>11</java.version>
