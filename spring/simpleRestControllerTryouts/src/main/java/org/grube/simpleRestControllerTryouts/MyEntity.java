@@ -1,38 +1,38 @@
 package org.grube.simpleRestControllerTryouts;
 
 public class MyEntity {
-    public String stringParam;
-    public int intParam;
+    public String name;
+    public int age;
 
     public MyEntity() {
     }
 
-    public MyEntity(String stringParam, int intParam) {
-        this.stringParam = stringParam;
-        this.intParam = intParam;
+    public MyEntity(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public String getStringParam() {
-        return stringParam;
+        return name;
     }
 
-    public void setStringParam(String stringParam) {
-        this.stringParam = stringParam;
+    public void setStringParam(String name) {
+        this.name = name;
     }
 
     public int getIntParam() {
-        return intParam;
+        return age;
     }
 
-    public void setIntParam(int intParam) {
-        this.intParam = intParam;
+    public void setIntParam(int age) {
+        this.age = age;
     }
 
     @Override
     public String toString() {
         return "MyEntity{" +
-                "stringParam='" + stringParam + '\'' +
-                ", intParam=" + intParam +
+                "name='" + name + '\'' +
+                ", age=" + age +
                 '}';
     }
 }

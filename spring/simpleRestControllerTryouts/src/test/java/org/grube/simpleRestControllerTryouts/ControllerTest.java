@@ -19,10 +19,18 @@ class ControllerTest {
 	void contextLoads() {
 	}
 	@Test
-	void getRequestParamsTest() throws Exception {
-		mockMvc.perform(get("/helloWorld"))
+	void getRequestResponseAsString_test() throws Exception {
+		mockMvc.perform(get("/getString"))
 				.andExpect(status().isOk())
 				.andExpect(content().string(containsString(":-)")))
 				.andExpect(content().string("Hello World:-)"));
+	}
+	@Test
+	void getJson_test() throws Exception {
+		String expectedResponse = 	"""
+									{"name":"myString./-:","age":42}
+									""";
+		mockMvc.perform(get("http://localhost:8080/getJson?name={name}&age={age}", "myString./-:", 42))
+				.andExpect(content().json(expectedResponse));
 	}
 }
