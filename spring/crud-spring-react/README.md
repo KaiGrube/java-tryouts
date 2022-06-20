@@ -1,6 +1,9 @@
-# CRUD Application With React and Spring Boot
-by Sallo Szrajbman
+# Spring Boot + React + Maven
 
-In this tutorial, we'll learn how to create an application capable of creating, retrieving, updating, and deleting (CRUD) client data. The application will consist of a simple Spring Boot RESTful API and a user interface (UI) implemented with the React JavaScript library.
+- Simple Spring Boot App (Rest API)
+- React App accessing Rest API 
+- Maven script 
+  - frontend-maven-plugin: installing node and npm, generating resources ('npm i', 'npm build')
+  - maven-resources-plugin: copying frontend build to target/static folder
 
 Source: https://www.baeldung.com/spring-boot-react-crud
