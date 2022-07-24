@@ -5,118 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3d70f0-2e45-40ec-99f5-3031af2afec5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCsv/target/classes/CsvImport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCsv/target/classes/Zipcode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCsv/target/classes/zipcodes_germany_part.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Optional/target/classes/Computer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Optional/target/classes/OptionalExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Optional/target/classes/Soundcard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Optional/target/classes/Usb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws/target/classes/secrets/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws/target/classes/secrets/SecretChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws/target/test-classes/secrets/SecretCheckerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/classes/Palindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/classes/RomanNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/test-classes/TestPalindrome$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/test-classes/TestPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/test-classes/TestRomanNumbers$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-challenges/target/test-classes/TestRomanNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dotenv-example/target/classes/DotEnv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dotenv-example/target/test-classes/DotEnvTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/classes/Foo$Nested.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/classes/Foo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/classes/SimpleGsonExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/classes/foo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jackson/target/classes/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jackson/target/classes/CustomAccountSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jackson/target/classes/JacksonSerializers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/RegistrationLoginJwtReactApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/error/GlobalErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/login/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/login/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/registration/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/registration/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/registration/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/registration/RegistrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/security/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/security/token/JwtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/security/token/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/security/token/JwtProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/UserConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/java/org/grube/registrationloginjwtreact/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/Register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/UserDetails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/components/UserList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/state/authActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/state/authReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/state/authTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/state/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/react/src/state/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main/resources/application.yml.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/application.yml.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/RegistrationLoginJwtReactApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/error/GlobalErrorHandler$ApiCallError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/error/GlobalErrorHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/login/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/login/LoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/login/LoginResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/registration/EmailValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/registration/RegistrationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/registration/RegistrationRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/registration/RegistrationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/security/PasswordEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/security/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/security/token/JwtConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/security/token/JwtFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/security/token/JwtProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/UserConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/org/grube/registrationloginjwtreact/user/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/static/css/main.31d6cfe0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/static/js/main.f09f6ec0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/static/js/main.f09f6ec0.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/classes/static/static/js/main.f09f6ec0.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/registration-login-jwt-react/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/DaysBetweenLocalDates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/LambdaFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/OptionalTryouts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/Persons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/PuffTheMagicXcrement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/SimpleEnumeration$ANIMALS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/SimpleEnumeration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard-library/target/classes/SimpleTryWithResoursces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/crud-spring-react/src/main/java/org/grube/crudspringreact/CrudSpringReactApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/crud-spring-react/src/main/java/org/grube/crudspringreact/CrudSpringReactApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,30 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/dci/projects/myProjects/0_java/java-tryouts/spring/registration-login-jwt-react/src/main",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.jsOptions",
-    "spring.configuration.checksum": "1ceae0e35a571613a3a3e01d440e4ed3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dci/projects/myProjects/0_java/java-tryouts/spring/registration-login-jwt-react/src/main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.jsOptions&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1ceae0e35a571613a3a3e01d440e4ed3&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring/registration-login-jwt-react/src/main" />
@@ -264,6 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationLoginJwtReactApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="registration-login-jwt-react" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.grube.registrationloginjwtreact.RegistrationLoginJwtReactApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationLoginJwtReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="registration-login-jwt-react" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.grube.registrationloginjwtreact.RegistrationLoginJwtReactApplication" />
@@ -273,6 +170,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.CrudSpringReactApplication" />
+      <item itemvalue="Spring Boot.RegistrationLoginJwtReactApplication (1)" />
       <item itemvalue="Spring Boot.RegistrationLoginJwtReactApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.CrudSpringReactApplication" />
@@ -297,7 +195,8 @@
       <workItem from="1658659809819" duration="619000" />
       <workItem from="1658661613531" duration="4302000" />
       <workItem from="1658666796052" duration="452000" />
-      <workItem from="1658667278387" duration="1002000" />
+      <workItem from="1658667278387" duration="2754000" />
+      <workItem from="1658672852530" duration="780000" />
     </task>
     <servers />
   </component>
