@@ -20,6 +20,7 @@
         <module>gson</module>
         <module>jackson</module>
         <module>Optional</module>
+        <module>spring</module>
     </modules>
 
     <build>

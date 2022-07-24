@@ -1,0 +1,28 @@
+spring:
+  main:
+    lazy-initialization: false
+    banner-mode: off
+  datasource:
+    password: XXX_PASSWORD_XXX
+    url: jdbc:postgresql://localhost:5432/spring_security_registration_login
+    username: XXX_USERNAME_XXX
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+    open-in-view: false
+
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-binding-errors: always
+
+jwt:
+  secretSigningKey: mySecret
+  expirationTime: 60000
+

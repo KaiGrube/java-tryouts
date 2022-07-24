@@ -9,11 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-
     <artifactId>spring</artifactId>
-
     <modules>
         <module>simpleRestControllerTryouts</module>
+        <module>crud-spring-react</module>
+        <module>registration-login-jwt-react</module>
     </modules>
-
 </project>
