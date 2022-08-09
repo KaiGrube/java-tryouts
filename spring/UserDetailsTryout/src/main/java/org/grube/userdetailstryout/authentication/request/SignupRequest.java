@@ -1,4 +1,4 @@
-package org.grube.userdetailstryout.users.requests;
+package org.grube.userdetailstryout.authentication.request;
 
 import lombok.*;
 import org.grube.userdetailstryout.users.validation.ValidPassword;

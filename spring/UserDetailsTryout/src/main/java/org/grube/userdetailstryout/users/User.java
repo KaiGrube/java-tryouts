@@ -1,22 +1,24 @@
 package org.grube.userdetailstryout.users;
 
-import com.fasterxml.jackson.annotation.JsonRootName;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 @Entity (name = "users")
 @Getter
 @Setter
 @ToString
 @NoArgsConstructor
-@JsonRootName(value = "user")
 public class User implements UserDetails {
 
     @Id
@@ -26,7 +28,6 @@ public class User implements UserDetails {
     private String username;
     private String password;
     private String role;
-
     private boolean isAccountNonExpired;
     private boolean isAccountNonLocked;
     private boolean isCredentialsNonExpired;
@@ -44,7 +45,9 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        List<GrantedAuthority> grantedAuthorities = new ArrayList<GrantedAuthority>();
+        grantedAuthorities.add(new SimpleGrantedAuthority(role));
+        return grantedAuthorities;
     }
 
     @Override

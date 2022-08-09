@@ -1,4 +1,4 @@
-package org.grube.userdetailstryout.users.requests;
+package org.grube.userdetailstryout.users.request;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

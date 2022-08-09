@@ -3,13 +3,12 @@ package org.grube.userdetailstryout.users;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.grube.userdetailstryout.ApiException;
-import org.grube.userdetailstryout.users.requests.CreateRequest;
-import org.grube.userdetailstryout.users.requests.SignupRequest;
+import org.grube.userdetailstryout.users.request.CreateRequest;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -20,34 +19,9 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping("/users")
-    public String user(){
-        return "This is users page. Should only be visible for logged in users with role 'USER'.";
-    }
-
-    @GetMapping("/admins")
-    public String admin(){
-        return "This is users page. Should only be visible for logged in users with role 'ADMIN'.";
-    }
-
-    @PostMapping("/signup")
-    public ResponseEntity<Object> signupUser(@Valid @RequestBody SignupRequest signupRequest, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            ApiException apiException = new ApiException("Validation error.");
-            bindingResult.getFieldErrors().forEach(error ->
-                    apiException.addSubError(error.getField(), error.getDefaultMessage())
-            );
-            return ResponseEntity.badRequest().body(apiException);
-        }
-        log.info(signupRequest.toString());
-
-        Optional<User> signedUpUser = userService.createUser(
-                signupRequest.getUsername(),
-                signupRequest.getPassword(),
-                "USER",
-                true
-        );
-        if (signedUpUser.isPresent()) return ResponseEntity.ok().body(signedUpUser.get().getId());
-        return ResponseEntity.ok().body("signup");
+    public ResponseEntity<Object> getUsers() {
+        List<User> users = userService.findAllUsers();
+        return ResponseEntity.ok().body(users);
     }
 
     @PostMapping("/users")

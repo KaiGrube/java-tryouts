@@ -2,8 +2,8 @@ package org.grube.userdetailstryout;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.grube.userdetailstryout.users.CustomUserDetailsService;
-import org.grube.userdetailstryout.users.SimpleAuthenticationSuccessHandler;
+import org.grube.userdetailstryout.authentication.CustomUserDetailsService;
+import org.grube.userdetailstryout.authentication.CustomAuthenticationSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -59,10 +59,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticated()
                 .and()
                 .formLogin()
+                .loginProcessingUrl("/authentication/login")
                 .failureHandler((request, response, exception) -> log.error("authentication failed."))
-                .successHandler(new SimpleAuthenticationSuccessHandler())
+                .successHandler(new CustomAuthenticationSuccessHandler())
                 .and()
                 .logout()
+                .logoutUrl("/authentication/logout")
                 .logoutSuccessUrl("/logoutSuccess")
                 .deleteCookies("JSESSIONID")
                 .clearAuthentication(true)
