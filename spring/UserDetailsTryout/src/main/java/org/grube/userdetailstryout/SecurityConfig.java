@@ -2,21 +2,18 @@ package org.grube.userdetailstryout;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.grube.userdetailstryout.users.CustomUserDetailsService;
 import org.grube.userdetailstryout.users.SimpleAuthenticationSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
-import javax.servlet.http.HttpSession;
-import java.security.Principal;
 
 @Configuration
 @EnableWebSecurity
@@ -24,7 +21,7 @@ import java.security.Principal;
 @Slf4j
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private final UserDetailsService userDetailsService;
+    private final CustomUserDetailsService userDetailsService;
 
     @Bean
     AuthenticationProvider authenticationProvider() {
@@ -42,11 +39,21 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/", "/login", "/loginUrl", "/loginSuccess", "/logout", "/logoutSuccess")
+                .antMatchers(
+                        "/",
+                        "/signup",
+                        "/login",
+                        "/loginUrl",
+                        "/loginSuccess",
+                        "/logout",
+                        "/logoutSuccess",
+                        "/test")
                 .permitAll()
-                .antMatchers("/user")
-                .hasAuthority("USER")
-                .antMatchers("/admin")
+                .antMatchers(
+                        "/users"
+                )
+                .hasAuthority("ADMIN")
+                .antMatchers(HttpMethod.GET, "/admins")
                 .hasAuthority("ADMIN")
                 .anyRequest()
                 .authenticated()

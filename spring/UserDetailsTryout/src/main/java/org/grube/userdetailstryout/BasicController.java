@@ -15,18 +15,8 @@ public class BasicController {
         return "This is root. Should be visible without being logged in.";
     }
 
-    @GetMapping("/user")
-    public String user(){
-        return "This is user page. Should only be visible for logged in users with role 'USER'.";
-    }
-
-    @GetMapping("/admin")
-    public String admin(){
-        return "This is user page. Should only be visible for logged in users with role 'ADMIN'.";
-    }
-
-    @GetMapping("/logoutSuccess")
-    public String logoutSuccess(){
-        return "Successfully logged out.";
+    @GetMapping("/test")
+    public String test() {
+        return "test";
     }
 }
