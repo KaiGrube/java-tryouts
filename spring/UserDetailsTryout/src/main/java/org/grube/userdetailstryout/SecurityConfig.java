@@ -41,13 +41,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers(
                         "/",
-                        "/signup",
-                        "/login",
-                        "/loginUrl",
-                        "/loginSuccess",
-                        "/logout",
-                        "/logoutSuccess",
-                        "/test")
+                        "/authentication/signup",
+                        "/authentication/login",
+                        "/authentication/logout"
+                )
                 .permitAll()
                 .antMatchers(
                         "/users"
@@ -58,16 +55,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest()
                 .authenticated()
                 .and()
-                .formLogin()
-                .loginProcessingUrl("/authentication/login")
-                .failureHandler((request, response, exception) -> log.error("authentication failed."))
-                .successHandler(new CustomAuthenticationSuccessHandler())
-                .and()
-                .logout()
-                .logoutUrl("/authentication/logout")
-                .logoutSuccessUrl("/logoutSuccess")
-                .deleteCookies("JSESSIONID")
-                .clearAuthentication(true)
-                .and().csrf().disable();
+//                .formLogin()
+//                .loginProcessingUrl("/authentication/login")
+//                .failureHandler((request, response, exception) -> log.error("authentication failed."))
+//                .successHandler(new CustomAuthenticationSuccessHandler())
+//                .and()
+//                .logout()
+//                .logoutUrl("/authentication/logout")
+//                .logoutSuccessUrl("/logoutSuccess")
+//                .deleteCookies("JSESSIONID")
+//                .clearAuthentication(true)
+//                .and()
+                .csrf().disable();
     }
 }

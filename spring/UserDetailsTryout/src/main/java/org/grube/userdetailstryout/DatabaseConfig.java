@@ -15,7 +15,7 @@ public class DatabaseConfig {
     @Bean
     CommandLineRunner commandLineRunner() {
         return args -> {
-            userService.createUser("admin@admin.com", "Pass$123", "ADMIN", true);
+            userService.createUser("admin@admin.com", "Pass123$", "ADMIN", true);
             userService.createUser("user1@user.com", "user1", "USER", true);
             userService.createUser("user2@user.com", "user2", "USER", true);
         };

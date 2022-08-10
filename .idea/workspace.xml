@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3d70f0-2e45-40ec-99f5-3031af2afec5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/DatabaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/SimpleAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/CustomAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/error/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/requests/CreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/request/CreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/requests/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/users/requests/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/UserDetailsTryout/src/main/java/org/grube/userdetailstryout/authentication/AuthenticationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +224,7 @@
       <workItem from="1658667278387" duration="2754000" />
       <workItem from="1658672852530" duration="11449000" />
       <workItem from="1659363418450" duration="20620000" />
-      <workItem from="1659960234739" duration="33967000" />
+      <workItem from="1659960234739" duration="42788000" />
     </task>
     <servers />
   </component>
